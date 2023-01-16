@@ -2,12 +2,12 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install --force
+      - npm i npm@latest -
       - pip install --upgrade pip
   pre_build:
     commands:
       - echo Pre_build Phase
-      - npm install
+      - npm install --force-yes
   build:
     commands:
       - echo Build Phase
