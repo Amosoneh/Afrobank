@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm i npm@latest -g
+      - npm install --force
       - pip install --upgrade pip
   pre_build:
     commands:
